@@ -34,7 +34,6 @@ PM> Install-Package Cilpron.Mail
 
 🛠 Usage
 
-``
 using Cilpron.Mail;
 using Cilpron.Mail.Models;
 using Cilpron.Mail.Helpers;
@@ -55,4 +54,4 @@ var msg = MailHelper.CreateSingleEmail(
 var response = await client.SendEmailAsync(msg);
 
 Console.WriteLine($"Status: {response.StatusCode}");
-``
+
